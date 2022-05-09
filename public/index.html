@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Duel Duo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/static/index.css" />
+    <script
+      src="https://kit.fontawesome.com/2742f5f170.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <h2 id="wins"></h2>
+    <h2 id="losses"></h2>
+
+    <button id="draw">
+      <span id="one">B</span><span id="two">A</span><span id="one">T</span
+      ><span id="two">T</span><span id="one">L</span><span id="two">E</span>
+    </button>
+
+    <section>
+      <h2 id="choose-header"></h2>
+      <div id="player" class="container"></div>
+    </section>
+
+    <h2 id="results"></h2>
+
+    <button id="play-again">Play again!</button>
+
+    <section class="container">
+      <section>
+        <div id="comp" class="container"></div>
+      </section>
+    </section>
+
+    <button id="duel">DUEL!</button>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="/static/index.js"></script>
+  </body>
+</html>

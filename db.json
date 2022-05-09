@@ -1,0 +1,72 @@
+[
+  {
+    "id": 0,
+    "name": "Gran Gran",
+    "imgAddress": "https://avatars.dicebear.com/api/avataaars/t.svg",
+    "attacks": 0,
+    "block": 0
+  },
+  {
+    "id": 1,
+    "name": "Eadward",
+    "imgAddress": "https://avatars.dicebear.com/api/avataaars/orange.svg",
+    "attacks": 0,
+    "block": 0
+  },
+  {
+    "id": 2,
+    "name": "Brynhorn",
+    "imgAddress": "https://avatars.dicebear.com/api/avataaars/gjrkbnsb.svg",
+    "attacks": 0,
+    "block": 0
+  },
+  {
+    "id": 3,
+    "name": "Hildir",
+    "imgAddress": "https://avatars.dicebear.com/api/avataaars/pi.svg",
+    "attacks": 0,
+    "block": 0
+  },
+  {
+    "id": 4,
+    "name": "Hethor",
+    "imgAddress": "https://avatars.dicebear.com/api/avataaars/wiggle.svg",
+    "attacks": 0,
+    "block": 0
+  },
+  {
+    "id": 5,
+    "name": "Hodor",
+    "imgAddress": "https://avatars.dicebear.com/api/avataaars/n  vbghdt.svg",
+    "attacks": 0,
+    "block": 0
+  },
+  {
+    "id": 6,
+    "name": "Woodie",
+    "imgAddress": "https://avatars.dicebear.com/api/avataaars/slworttri.svg",
+    "attacks": 0,
+    "block": 0
+  },
+  {
+    "id": 7,
+    "name": "Drywaller",
+    "imgAddress": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6uWaBZ2uAVNoJnuoN_pd_SxXrxcuw1UoFpg&usqp=CAU",
+    "attacks": 0,
+    "block": 0
+  },
+  {
+    "id": 8,
+    "name": "The Absolute Unit",
+    "imgAddress": "https://robohash.org/asd?set=set2",
+    "attacks": 0,
+    "block": 0
+  },
+  {
+    "id": 9,
+    "name": "Does-the-thing",
+    "imgAddress": "https://robohash.org/ cat?set=set4",
+    "attacks": 0,
+    "block": 0
+  }
+]

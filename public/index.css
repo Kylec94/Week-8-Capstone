@@ -1,0 +1,164 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Audiowide", cursive;
+}
+
+#draw:hover {
+  background: linear-gradient(45deg, #450312, #f4a040, #8f4e03, #0b0b0b);
+}
+#draw {
+  margin: 20px auto;
+  background: linear-gradient(45deg, #450312, #b46a16, #f59425, #0b0b0b);
+  padding: 50px;
+  font-size: 100px;
+  cursor: pointer;
+}
+
+img {
+  width: 150px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.character-card {
+  width: 225px;
+  padding: 50px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px 15px;
+  position: relative;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvMVDlzP-ig3DaoIjXPrE7VPOI2xVMRM-LtQ&usqp=CAU");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 5px 10px 10px 10px rgb(236, 138, 20);
+  border: 10px solid brown;
+}
+
+.outline::before {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: -10px;
+
+  width: calc(100% + 20px);
+  height: calc(100% + 20px);
+  z-index: -1;
+  border-radius: 20px 20px;
+}
+
+hr {
+  margin: 50px;
+  width: 90vw;
+}
+
+.name {
+  background: linear-gradient(45deg, #450312, #b46a16, #f59425, #0b0b0b);
+  border: solid 1px gray;
+  margin: 10px;
+  font-family: fantasy;
+  font-size: 30px;
+  width: 323px;
+  text-align: center;
+}
+
+#att,
+#block,
+#flee {
+  background: linear-gradient(45deg, #450312, #b46a16, #f59425, #0b0b0b);
+  margin: 10px;
+  padding: 10px;
+  width: 100px;
+  font-family: fantasy;
+  text-align: center;
+  border-radius: 10px;
+}
+
+#att:hover,
+#block:hover,
+#flee:hover {
+  cursor: pointer;
+  background: linear-gradient(45deg, #450312, #f4a040, #8f4e03, #0b0b0b);
+}
+
+#spanatt {
+  color: red;
+}
+
+#wins {
+  margin-top: 100px;
+  margin-bottom: 5px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvMVDlzP-ig3DaoIjXPrE7VPOI2xVMRM-LtQ&usqp=CAU");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: fantasy;
+  color: blue;
+  text-decoration: underline;
+  width: 10vw;
+  text-align: center;
+
+  border-radius: 10px 10px 10px 10px;
+}
+
+#losses {
+  color: red;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvMVDlzP-ig3DaoIjXPrE7VPOI2xVMRM-LtQ&usqp=CAU");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: fantasy;
+  text-decoration: underline;
+  width: 10vw;
+  text-align: center;
+
+  border-radius: 10px 10px 10px 10px;
+}
+
+#one {
+  color: black;
+  font-family: fantasy;
+}
+
+#two {
+  color: red;
+  font-family: fantasy;
+}
+
+h3,
+h4,
+p {
+  margin: 10px;
+  font-family: fantasy;
+  background: linear-gradient(45deg, #450312, #b46a16, #402200, #0b0b0b);
+}
+
+.hide {
+  display: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 1000px;
+  background: orange;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuzxDXQGfxS8QbmU3OKF_6ICmHWeObvfDVMg&usqp=CAU");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#play-again {
+  background: black;
+  color: red;
+  padding: 10px 20px;
+}
+
+#results {
+  color: red;
+  font-size: 50px;
+}
